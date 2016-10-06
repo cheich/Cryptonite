@@ -10,6 +10,7 @@
 
 - PHP >= 5.3.3
 - OpenSSL >= 0.9.6 - Should not between 1.0.1 and 1.0.1f (prevent Heardbleed exploits, see http://heartbleed.com/)
+- Place minimalistic `openssl.cnf` file near `Cryptonite.php` as fall-back
 
 ## Examples
 
