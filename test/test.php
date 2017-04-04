@@ -5,7 +5,7 @@ use Cryptonite\AsymmetricEncryption;
 use Cryptonite\Password;
 use Cryptonite\EncryptionException;
 
-require '../Cryptonite.php';
+require '../autoload.php';
 
 //
 // Some phrases
