@@ -4,7 +4,7 @@
  * @package Cryptonite
  * @since   2.0.0
  */
-namespace Cryptonite;
+namespace Cheich\Cryptonite;
 
 /**
  * Encryption
