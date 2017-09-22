@@ -109,7 +109,7 @@ try {
 ```php
 try {
   $password = new Password();
-  $hashed   = /* get hashes password */;
+  $hashed   = /* get hashed password */;
 
   // Returns true or false
   $password->verify('MyPassphrase', $hashed);
