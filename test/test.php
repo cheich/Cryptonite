@@ -1,11 +1,15 @@
 <?php
 
-use Cryptonite\SymmetricEncryption;
-use Cryptonite\AsymmetricEncryption;
-use Cryptonite\Password;
-use Cryptonite\EncryptionException;
+use Cheich\Cryptonite\SymmetricEncryption;
+use Cheich\Cryptonite\AsymmetricEncryption;
+use Cheich\Cryptonite\Password;
+use Cheich\Cryptonite\EncryptionException;
 
-require '../autoload.php';
+require '../src/Encryption.php';
+require '../src/EncryptionException.php';
+require '../src/SymmetricEncryption.php';
+require '../src/AsymmetricEncryption.php';
+require '../src/Password.php';
 
 //
 // Some phrases
