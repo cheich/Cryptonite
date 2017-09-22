@@ -6,6 +6,26 @@
 - Symmetric encryption
 - Password hashing
 
+## Install
+
+### Composer
+
+#### Command Line
+
+```
+composer require cheich/cryptonite
+```
+
+#### composer.json
+
+```
+{
+  "require": {
+    "cheich/cryptonite": "dev-master"
+  }
+}
+```
+
 ## Requirements
 
 - PHP >= 5.3.3
